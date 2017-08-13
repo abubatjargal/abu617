@@ -1,0 +1,64 @@
+body {
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar {
+	z-index: 10;
+	background-color: #fff;
+}
+
+.custom-logo {
+	margin-left: 10px;
+	color: #777 !important;
+	font-weight: 500!important;
+}
+
+#nav-mobile a{
+	color: #888 !important;
+}
+
+.container {
+	padding-top: 60px;
+	z-index: 1;
+	position: absolute;
+	width: 80%;
+	max-width: 1500px;
+	height: 100%;
+	background-color: white;
+}
+
+
+.track {
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 5%;
+}
+
+iframe {
+	width: 70%;
+}
+
+.btn-container {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.purchase-btn {
+	z-index: 10;
+	min-width: 180px;
+	margin-bottom: 10px;
+}
+
+.payment-btn {
+	z-index: 1;
+	display: none;
+	min-width: 150px;
+	margin-top: 10px;
+}
